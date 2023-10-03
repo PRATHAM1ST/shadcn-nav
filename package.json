@@ -1,0 +1,48 @@
+{
+  "name": "@pratham1st/shadcn-nav",
+  "version": "0.0.1",
+  "description": "This is the package for having a great navbar using the help of shadcn",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRATHAM1ST/shadcn-nav.git"
+  },
+  "keywords": [
+    "shadcn",
+    "navbar",
+    "nav",
+    "responsive",
+    "npm",
+    "navigation",
+    "header",
+    "menu",
+    "ui",
+    "shadcnui",
+    "shadcn-ui"
+  ],
+  "author": "Pratham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRATHAM1ST/shadcn-nav/issues"
+  },
+  "homepage": "https://github.com/PRATHAM1ST/shadcn-nav#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-typescript": "^11.1.4",
+    "@types/react": "^18.2.24",
+    "react": "^18.2.0",
+    "rollup-plugin-dts": "^6.0.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
