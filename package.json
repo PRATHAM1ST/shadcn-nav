@@ -1,6 +1,6 @@
 {
   "name": "@pratham1st/shadcn-nav",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is the package for having a great navbar using the help of shadcn",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
