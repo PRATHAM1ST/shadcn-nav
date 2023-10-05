@@ -13,8 +13,10 @@ jobs:
               with:
                   node-version: 12
                   registry-url: https://registry.npmjs.org
+            - name: rollup
+              run: npm run rollup
             - name: publish
               run: npm publish --access public
-              working-directory: my-package
+              working-directory: dist
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
