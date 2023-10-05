@@ -8,6 +8,9 @@
 		"dist"
 	],
 	"types": "dist/index.d.ts",
+	"publishConfig": {
+		"@PRATHAM1ST:registry": "https://npm.pkg.github.com"
+	},
 	"scripts": {
 		"dev": "rollup -c --watch --bundleConfigAsCjs",
 		"rollup": "rollup -c --bundleConfigAsCjs"
